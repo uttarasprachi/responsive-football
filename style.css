@@ -260,6 +260,11 @@ my club style
 /* ----------------
 Photo Album 
 ------------------- */
+
+.football-album{
+    margin-left: 80px;
+    
+}
 .football-album h3{
     text-align: center;
     font-size: 40px;
@@ -314,6 +319,7 @@ footer a{
 }
 footer img{
     display: block;
+    margin-top: 70px;
     margin: 0;
     width: 200px;
     padding-left: 515px;
