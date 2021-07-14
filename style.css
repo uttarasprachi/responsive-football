@@ -175,7 +175,6 @@ font-feature-settings: 'liga' off;
 color: #6C6C6C;
 }
 
-
 /* highlighting part */
 .highlights{
     display: flex;
@@ -194,6 +193,44 @@ color: #6C6C6C;
     padding-left: 5px;
 }
 .half-width h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.link-button{
+    text-decoration: none;
+    background: #E02C6D;
+    padding: 8px 15px;
+    color: white;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
+
+/* my club part */
+
+
+.my-club-pro{
+    display: flex;
+    background-color: navy;
+    color: oldlace;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.club-info{
+    width: 50%;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 30px;
+}
+
+
+.club-info h1{
     font-size: 40px;
     font-weight: 700;
     margin: 0;
