@@ -87,6 +87,15 @@ nav a{
     margin: 0;
     padding: 0;
 }
+.football{
+    transition: transform 1s;
+    position: relative;
+    transition: transform 1s ease-out;
+}
+.football:hover{
+    transform: rotate(10deg);
+    transform-origin: top left;
+}
 
 section{
     display: flex;
