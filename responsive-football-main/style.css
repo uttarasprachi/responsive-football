@@ -226,3 +226,19 @@ footer img{
     padding-left: 515px;
     justify-items: center;
 }
+
+@media only screen and (max-width:688px) {
+    .top-players{
+        width: 100%;
+    }
+    .player{
+        background-color: red;
+        /*grid-template-columns: repeat(1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr);*/
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+    .top-players .highlights .top-banner{
+        flex-direction: column;
+    }
+    
+}
